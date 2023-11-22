@@ -15,7 +15,7 @@ namespace Blog.Middleware
             _next = next;
         }
 
-        public async Task Invoke(HttpContext httpContext)
+        public Task Invoke(HttpContext httpContext)
         {
             if (httpContext.Request.Path.StartsWithSegments("/Admin")
                 || httpContext.Request.Path.StartsWithSegments("/Category")
@@ -27,7 +27,7 @@ namespace Blog.Middleware
                     httpContext.Response.Redirect("/Auth/Login");
                 }
             }
-            _next(httpContext).GetAwaiter().GetResult();
+            return _next(httpContext);
         }
     }
 
