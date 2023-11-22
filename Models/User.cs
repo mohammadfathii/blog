@@ -1,3 +1,4 @@
+using blog.Models;
 using System.ComponentModel.DataAnnotations;
 
 namespace Blog.Models
@@ -15,5 +16,9 @@ namespace Blog.Models
         public string FullName { get; set; }
         public bool IsAdmin { get; set; } = false;
         public DateTime RegisterTime { get; set; } = DateTime.Now;
+
+        public virtual ICollection<Comment> Comments { get; set;}
+        public virtual ICollection<Article> Articles { get; set; }
+
     }
 }
