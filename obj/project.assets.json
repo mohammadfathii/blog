@@ -3558,23 +3558,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Developer\\.nuget\\packages\\": {},
+    "C:\\Users\\sampa\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Developer\\OneDrive\\Desktop\\Blog\\Blog.csproj",
+      "projectUniqueName": "C:\\Users\\sampa\\Desktop\\asp\\Shop\\blog\\Blog.csproj",
       "projectName": "Blog",
-      "projectPath": "C:\\Users\\Developer\\OneDrive\\Desktop\\Blog\\Blog.csproj",
-      "packagesPath": "C:\\Users\\Developer\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Developer\\OneDrive\\Desktop\\Blog\\obj\\",
+      "projectPath": "C:\\Users\\sampa\\Desktop\\asp\\Shop\\blog\\Blog.csproj",
+      "packagesPath": "C:\\Users\\sampa\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\sampa\\Desktop\\asp\\Shop\\blog\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Developer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\sampa\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

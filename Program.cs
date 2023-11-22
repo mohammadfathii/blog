@@ -1,6 +1,7 @@
 using Blog.Data;
 using Blog.Data.Services;
 using Blog.Data.Services.Interface;
+using Blog.Middleware;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.EntityFrameworkCore;
 
@@ -38,6 +39,9 @@ app.UseRouting();
 
 app.UseAuthorization();
 app.UseAuthentication();
+// custom middlewares
+app.UseAuthValidateMiddleware();
+
 
 app.MapControllerRoute(
     name: "default",

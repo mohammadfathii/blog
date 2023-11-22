@@ -72,6 +72,7 @@ namespace Blog.Controllers
             
             var claims = new List<Claim>(){
                 new Claim(ClaimTypes.NameIdentifier,U.Id.ToString()),
+                new Claim("Is_Admin",(U.IsAdmin == true ? "true" : "false")),
             };
 
             var IdentityClaims = new ClaimsIdentity(claims,CookieAuthenticationDefaults.AuthenticationScheme);
